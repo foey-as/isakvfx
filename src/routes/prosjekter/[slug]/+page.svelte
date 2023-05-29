@@ -24,7 +24,7 @@
 		<div class="my-3 leading-7 first:mt-0">
 			{data.description}
 		</div>
-		<YouTube youTubeId='WIWA3uQP2TQ' autoPlay={true} />
+		<YouTube youTubeId={data.youtube} autoPlay={true} />
 		<div
 			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-blue-200 dark:border-blue-200/30 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-200"
 		>
