@@ -17,19 +17,7 @@
 	{@html serializeSchema({
 		'@context': 'https://schema.org/',
 		'@type': 'Person',
-		name: 'Moritz André Myrseth',
-		url: 'https://www.myrseth.dev/',
-		sameAs: [
-			'https://github.com/moritzmyrz/',
-			'https://www.linkedin.com/in/myrseth/',
-			'https://www.instagram.com/moritzmyrz/',
-			'https://twitter.com/moritzmyrz/',
-			'https://www.myrseth.dev/'
-		],
-		jobTitle: 'Webutvikler',
-		worksFor: {
-			'@type': 'Organization',
-			name: 'Myrseth Technologies AS'
-		}
+		name: 'Isak Fjeld Rasmussen',
+		url: 'https://www.isakvfx.no/',
 	})}
 </svelte:head>

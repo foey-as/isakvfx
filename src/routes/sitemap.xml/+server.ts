@@ -19,13 +19,13 @@ export async function GET() {
             xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
         >
             <url>
-                <loc>https://www.myrseth.dev/</loc>
+                <loc>https://www.isakvfx.no/</loc>
                 <lastmod>${lastmod}</lastmod>
                 <changefreq>always</changefreq>
                 <priority>1.0</priority>
             </url>
             <url>
-                <loc>https://www.myrseth.dev/prosjekter/</loc>
+                <loc>https://www.isakvfx.no/prosjekter/</loc>
                 <lastmod>${lastmod}</lastmod>
                 <changefreq>always</changefreq>
                 <priority>0.8</priority>
@@ -34,7 +34,7 @@ export async function GET() {
 							(slug) =>
 								`
                     <url>
-                        <loc>https://www.myrseth.dev/prosjekter/${slug}</loc>
+                        <loc>https://www.isakvfx.no/prosjekter/${slug}</loc>
                         <lastmod>${lastmod}</lastmod>
                         <changefreq>always</changefreq>
                         <priority>0.8</priority>

@@ -13,12 +13,10 @@
 		<h1
 			class="font-semibold mt-10 border-b pb-1 text-3xl contrast-more:border-neutral-400"
 		>
-			Hei! Jeg er Moritz Myrseth
+			Hei! Jeg er Isak Fjeld Rasmussen
 		</h1>
 		<p class="mt-6 leading-7 first:mt-0">
-			Jeg er en webutvikler med erfaring primært innen JavaScript, React og Microsoft Azure. Jeg er
-			interessert i å lære og utvikle meg i teknologibransjen, og liker å holde meg oppdatert på nye
-			teknologier på fritiden.
+			Tekst
 		</p>
 		<div class="h-[50px]" />
 		<h2 class="font-semibold mt-10 border-b pb-1 text-2xl contrast-more:border-neutral-400">
@@ -31,28 +29,28 @@
 </div>
 
 <svelte:head>
-	<title>Moritz André Myrseth - Webutvikler</title>
-	<meta name="title" content="Moritz André Myrseth - Webutvikler" />
+	<title>Isak Fjeld Rasmussen</title>
+	<meta name="title" content="Isak Fjeld Rasmussen" />
 	<meta
 		name="description"
-		content="Jeg er en webutvikler med erfaring primært innen JavaScript, React og Microsoft Azure. Jeg er interessert i å lære og utvikle meg i teknologibransjen, og liker å holde meg oppdatert på nye teknologier på fritiden."
+		content=""
 	/>
 
-	<link rel="canonical" href="https://www.myrseth.dev/" />
+	<link rel="canonical" href="https://www.isakvfx.no/" />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.myrseth.dev/" />
-	<meta property="og:title" content="Moritz André Myrseth - Webutvikler" />
+	<meta property="og:url" content="https://www.isakvfx.no/" />
+	<meta property="og:title" content="Isak Fjeld Rasmussen" />
 	<meta
 		property="og:description"
-		content="Jeg er en webutvikler med erfaring primært innen JavaScript, React og Microsoft Azure. Jeg er interessert i å lære og utvikle meg i teknologibransjen, og liker å holde meg oppdatert på nye teknologier på fritiden."
+		content=""
 	/>
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://www.myrseth.dev/" />
-	<meta property="twitter:title" content="Moritz André Myrseth - Webutvikler" />
+	<meta property="twitter:url" content="https://www.isakvfx.no/" />
+	<meta property="twitter:title" content="Isak Fjeld Rasmussen" />
 	<meta
 		property="twitter:description"
-		content="Jeg er en webutvikler med erfaring primært innen JavaScript, React og Microsoft Azure. Jeg er interessert i å lære og utvikle meg i teknologibransjen, og liker å holde meg oppdatert på nye teknologier på fritiden."
+		content=""
 	/>
 </svelte:head>

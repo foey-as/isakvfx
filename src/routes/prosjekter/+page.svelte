@@ -20,20 +20,20 @@
 </div>
 
 <svelte:head>
-	<title>Prosjekter | Myrseth</title>
-	<meta name="title" content="Prosjekter | Myrseth" />
+	<title>Prosjekter | Rasmussen</title>
+	<meta name="title" content="Prosjekter | Rasmussen" />
 	<meta name="description" content="Her er en liste over prosjekter jeg har jobbet med." />
 
-	<link rel="canonical" href="https://www.myrseth.dev/prosjekter/" />
+	<link rel="canonical" href="https://www.isakvfx.no/prosjekter/" />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.myrseth.dev/prosjekter/" />
-	<meta property="og:title" content="Prosjekter | Myrseth" />
+	<meta property="og:url" content="https://www.isakvfx.no/prosjekter/" />
+	<meta property="og:title" content="Prosjekter | Rasmussen" />
 	<meta property="og:description" content="Her er en liste over prosjekter jeg har jobbet med." />
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://www.myrseth.dev/prosjekter/" />
-	<meta property="twitter:title" content="Prosjekter | Myrseth" />
+	<meta property="twitter:url" content="https://www.isakvfx.no/prosjekter/" />
+	<meta property="twitter:title" content="Prosjekter | Rasmussen" />
 	<meta
 		property="twitter:description"
 		content="Her er en liste over prosjekter jeg har jobbet med."
