@@ -15,7 +15,7 @@
 </script>
 
 <div
-	class="flex min-h-[calc(100vh-4rem)] w-full min-w-0 max-w-full justify-center pb-8 dark:text-gray-50"
+	class="flex min-h-[calc(100vh-4rem)] w-full min-w-0 max-w-full justify-center pb-8 text-gray-50"
 >
 	<main class="w-full min-w-0 max-w-4xl px-6 pt-4 md:px-8">
 		<h1 class="font-semibold mt-10 border-b pb-1 text-3xl contrast-more:border-neutral-400">
@@ -26,13 +26,13 @@
 		</div>
 		<YouTube youTubeId={data.youtube} autoPlay={true} />
 		<div
-			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-blue-200 dark:border-blue-200/30 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-200"
+			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-blue-200/30 bg-blue-900/30 text-blue-200"
 		>
 			<h2 class="font-semibold mr-1">Laget med:</h2>
 			<p>{data.technologies}</p>
 		</div>
 		<div
-			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-indigo-200 dark:border-indigo-200/30 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-900 dark:text-indigo-200"
+			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-indigo-200/30 bg-indigo-900/30 text-indigo-200"
 		>
 			<h2 class="font-semibold mr-1">Tidsperiode:</h2>
 			<p>{getDateRange(new Date(data.fromDate), new Date(data.toDate))}</p>

@@ -1,6 +1,6 @@
-<div class="nav-container text-black dark:text-gray-100">
+<div class="nav-container text-gray-100">
 	<div
-		class="nav-container-blur w-full h-full dark:bg-[hsla(0,0%,7%,.8)!important] dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset]"
+		class="nav-container-blur w-full h-full bg-[hsla(0,0%,7%,.8)!important] shadow-[0_-1px_0_rgba(255,255,255,.1)_inset]"
 	/>
 	<nav class="h-[4rem] mx-auto flex max-w-[90rem] items-center justify-end gap-2 px-[1.5rem]">
 		<a class="flex items-center hover:opacity-75 mr-auto" href="/">
