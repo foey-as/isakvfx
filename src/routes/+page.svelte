@@ -13,10 +13,10 @@
 		<h1
 			class="font-semibold mt-10 border-b pb-1 text-3xl contrast-more:border-neutral-400"
 		>
-			Hei! Jeg er Isak Fjeld Rasmussen
+			{data.metadata.heading}
 		</h1>
 		<p class="mt-6 leading-7 first:mt-0">
-			Tekst
+			{data.metadata.description}
 		</p>
 		<div class="h-[50px]" />
 		<h2 class="font-semibold mt-10 border-b pb-1 text-2xl contrast-more:border-neutral-400">
@@ -29,28 +29,28 @@
 </div>
 
 <svelte:head>
-	<title>Isak Fjeld Rasmussen</title>
-	<meta name="title" content="Isak Fjeld Rasmussen" />
+	<title>{data.metadata.pageTitle}</title>
+	<meta name="title" content={data.metadata.pageTitle} />
 	<meta
 		name="description"
-		content=""
+		content={data.metadata.description}
 	/>
 
 	<link rel="canonical" href="https://www.isakvfx.no/" />
 
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://www.isakvfx.no/" />
-	<meta property="og:title" content="Isak Fjeld Rasmussen" />
+	<meta property="og:title" content={data.metadata.pageTitle} />
 	<meta
 		property="og:description"
-		content=""
+		content={data.metadata.description}
 	/>
 
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="https://www.isakvfx.no/" />
-	<meta property="twitter:title" content="Isak Fjeld Rasmussen" />
+	<meta property="twitter:title" content={data.metadata.pageTitle} />
 	<meta
 		property="twitter:description"
-		content=""
+		content={data.metadata.description}
 	/>
 </svelte:head>

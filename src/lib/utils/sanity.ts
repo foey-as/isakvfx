@@ -23,3 +23,8 @@ export async function getProject(slug: string) {
 	const project = await client.fetch('*[_type == "project" && slug.current == $slug][0]', { slug });
 	return project;
 }
+
+export async function getMetadata() {
+	const metadata = await client.fetch('*[_type == "metadata"][0]');
+	return metadata;
+}
