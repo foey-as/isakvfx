@@ -4,7 +4,7 @@
 	/>
 	<nav class="h-[4rem] mx-auto flex max-w-[90rem] items-center justify-end gap-2 px-[1.5rem]">
 		<a class="flex items-center hover:opacity-75 mr-auto" href="/">
-			<b>Isak Fjeld Rasmussen</b>
+			<b>Portfolio</b>
 		</a>
 	</nav>
 </div>
