@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Navbar from '$lib/components/Navbar.svelte';
 	import '../global.css';
 
 	import { serializeSchema } from '$lib/utils/serializeSchema';
@@ -10,7 +9,6 @@
 	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
-<Navbar />
 <slot />
 
 <svelte:head>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Navbar from '$lib/components/Navbar.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 
 	import type { PageData } from './$types';
@@ -6,6 +7,7 @@
 	export let data: PageData;
 </script>
 
+<Navbar />
 <div
 	class="flex min-h-[calc(100vh-4rem)] w-full min-w-0 max-w-full justify-center pb-8 text-gray-50"
 >

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Navbar from '$lib/components/Navbar.svelte';
 	import Image from '$lib/components/PortableText/Image.svelte';
 	import { getDateRange } from '$lib/utils/getDateRange';
 	import { urlFor } from '$lib/utils/image';
@@ -14,6 +15,7 @@
 	export let data: PageData;
 </script>
 
+<Navbar home />
 <div
 	class="flex min-h-[calc(100vh-4rem)] w-full min-w-0 max-w-full justify-center pb-8 text-gray-50"
 >
