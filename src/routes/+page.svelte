@@ -17,9 +17,12 @@
 		>
 			{data.metadata.heading}
 		</h1>
-		<p class="mt-6 leading-7 first:mt-0">
-			{data.metadata.description}
-		</p>
+		<div class="mt-6 leading-7 first:mt-0 flex-col flex md:flex-row justify-between">
+			<p class="">
+				{data.metadata.description}
+			</p>
+			<img src="/logo.png" class="w-64 mx-auto md:m-0" alt="logo">
+		</div>
 		<div class="h-[50px]" />
 		<h2 class="font-semibold mt-10 border-b pb-1 text-2xl contrast-more:border-neutral-400">
 			<a href="/prosjekter">Prosjekter</a>
