@@ -21,7 +21,7 @@
 			<p class="">
 				{data.metadata.description}
 			</p>
-			<img src="/logo.png" class="w-64 mx-auto md:m-0" alt="logo">
+			<img src="/logo.png" class="w-32 md:w-64 mx-auto md:m-0" alt="logo">
 		</div>
 		<div class="h-[50px]" />
 		<h2 class="font-semibold mt-10 border-b pb-1 text-2xl contrast-more:border-neutral-400">
