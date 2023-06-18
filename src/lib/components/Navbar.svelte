@@ -10,6 +10,7 @@
 	/>
 	<nav class="h-[4rem] mx-auto flex max-w-[90rem] items-center justify-end gap-2 px-[1.5rem]">
 		<a class="flex items-center hover:opacity-75 mr-auto" href="/">
+			<img src="/logo.png" class="h-8" alt="">
 			<b>{home ? 'Home' : 'Portfolio'}</b>
 		</a>
 	</nav>
