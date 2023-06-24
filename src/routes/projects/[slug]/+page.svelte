@@ -30,13 +30,13 @@
 		<div
 			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-blue-200/30 bg-blue-900/30 text-blue-200"
 		>
-			<h2 class="font-semibold mr-1">Laget med:</h2>
+			<h2 class="font-semibold mr-1">Made with:</h2>
 			<p>{data.technologies}</p>
 		</div>
 		<div
 			class="mt-2 flex rounded-lg border py-2 px-4 contrast-more:border-current border-indigo-200/30 bg-indigo-900/30 text-indigo-200"
 		>
-			<h2 class="font-semibold mr-1">Tidsperiode:</h2>
+			<h2 class="font-semibold mr-1">Time period:</h2>
 			<p>{getDateRange(new Date(data.fromDate), new Date(data.toDate))}</p>
 		</div>
 
@@ -54,20 +54,20 @@
 </div>
 
 <svelte:head>
-	<title>{data.title} / Prosjekter | Rasmussen</title>
-	<meta name="title" content={`${data.title} / Prosjekter | Rasmussen`} />
+	<title>{data.title} / Projects | Rasmussen</title>
+	<meta name="title" content={`${data.title} / Projects | Rasmussen`} />
 	<meta name="description" content={data.description} />
 
-	<link rel="canonical" href={`https://www.isakvfx.no/prosjekter/${data.slug}`} />
+	<link rel="canonical" href={`https://www.isakvfx.no/projects/${data.slug}`} />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content={`https://www.isakvfx.no/prosjekter/${data.slug}`} />
-	<meta property="og:title" content={`${data.title} / Prosjekter | Rasmussen`} />
+	<meta property="og:url" content={`https://www.isakvfx.no/projects/${data.slug}`} />
+	<meta property="og:title" content={`${data.title} / Projects | Rasmussen`} />
 	<meta property="og:description" content={data.description} />
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content={`https://www.isakvfx.no/prosjekter/${data.slug}`} />
-	<meta property="twitter:title" content={`${data.title} / Prosjekter | Rasmussen`} />
+	<meta property="twitter:url" content={`https://www.isakvfx.no/projects/${data.slug}`} />
+	<meta property="twitter:title" content={`${data.title} / Projects | Rasmussen`} />
 	<meta property="twitter:description" content={data.description} />
 
 	{@html serializeSchema({

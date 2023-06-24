@@ -10,5 +10,5 @@ export const load = (async () => {
 
 	if (projects && metadata) return { projects, metadata };
 
-	throw error(404, 'Siden finnes ikke');
+	throw error(404, 'Page not found');
 }) satisfies PageLoad;

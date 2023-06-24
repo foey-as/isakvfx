@@ -9,7 +9,7 @@
 {#each prosjekter as prosjekt}
 	<a
 		class="mt-4 cursor-pointer h-auto grid-cols-none grid md:grid-cols-[.3fr_.7fr] md:grid-rows-1 md:gap-0 md:max-h-[240px] p-[10px] rounded-md outline-offset-2 outline-2 outline-transparent"
-		href={`/prosjekter/${prosjekt.slug.current}`}
+		href={`/projects/${prosjekt.slug.current}`}
 	>
 		<div class="relative w-full h-[200px] mb-[1em] md:mb-0 md:h-auto">
 			<img

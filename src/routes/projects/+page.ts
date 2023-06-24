@@ -9,5 +9,5 @@ export const load = (async () => {
 
 	if (projects) return { projects };
 
-	throw error(404, 'Siden finnes ikke');
+	throw error(404, 'Page not found');
 }) satisfies PageLoad;

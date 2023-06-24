@@ -24,7 +24,7 @@
 		</div>
 		<div class="h-[50px]" />
 		<h2 class="font-semibold mt-10 border-b pb-1 text-2xl contrast-more:border-neutral-400">
-			<a href="/prosjekter">Prosjekter</a>
+			<a href="/projects">Projects</a>
 		</h2>
 		<div class="mt-6 leading-7 first:mt-0">
 			<Projects projects={data.projects} />

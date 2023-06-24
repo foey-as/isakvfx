@@ -25,7 +25,7 @@ export async function GET() {
                 <priority>1.0</priority>
             </url>
             <url>
-                <loc>https://www.isakvfx.no/prosjekter/</loc>
+                <loc>https://www.isakvfx.no/projects/</loc>
                 <lastmod>${lastmod}</lastmod>
                 <changefreq>always</changefreq>
                 <priority>0.8</priority>
@@ -34,7 +34,7 @@ export async function GET() {
 							(slug) =>
 								`
                     <url>
-                        <loc>https://www.isakvfx.no/prosjekter/${slug}</loc>
+                        <loc>https://www.isakvfx.no/projects/${slug}</loc>
                         <lastmod>${lastmod}</lastmod>
                         <changefreq>always</changefreq>
                         <priority>0.8</priority>

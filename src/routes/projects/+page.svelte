@@ -13,7 +13,7 @@
 >
 	<main class="w-full min-w-0 max-w-4xl px-6 pt-4 md:px-8">
 		<h1 class="font-semibold mt-10 border-b pb-1 text-3xl contrast-more:border-neutral-400">
-			Prosjekter
+			Projects
 		</h1>
 		<div class="mt-6 leading-7 first:mt-0">
 			<Projects projects={data.projects} />
@@ -22,22 +22,22 @@
 </div>
 
 <svelte:head>
-	<title>Prosjekter | Rasmussen</title>
-	<meta name="title" content="Prosjekter | Rasmussen" />
-	<meta name="description" content="Her er en liste over prosjekter jeg har jobbet med." />
+	<title>Projects | Rasmussen</title>
+	<meta name="title" content="Projects | Rasmussen" />
+	<meta name="description" content="Here are the projects I've done." />
 
-	<link rel="canonical" href="https://www.isakvfx.no/prosjekter/" />
+	<link rel="canonical" href="https://www.isakvfx.no/projects/" />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.isakvfx.no/prosjekter/" />
-	<meta property="og:title" content="Prosjekter | Rasmussen" />
-	<meta property="og:description" content="Her er en liste over prosjekter jeg har jobbet med." />
+	<meta property="og:url" content="https://www.isakvfx.no/projects/" />
+	<meta property="og:title" content="Projects | Rasmussen" />
+	<meta property="og:description" content="Here are the projects I've done." />
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://www.isakvfx.no/prosjekter/" />
-	<meta property="twitter:title" content="Prosjekter | Rasmussen" />
+	<meta property="twitter:url" content="https://www.isakvfx.no/projects/" />
+	<meta property="twitter:title" content="Projects | Rasmussen" />
 	<meta
 		property="twitter:description"
-		content="Her er en liste over prosjekter jeg har jobbet med."
+		content="Here are the projects I've done."
 	/>
 </svelte:head>
