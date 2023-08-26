@@ -13,6 +13,7 @@
 			<img src="/logo.png" class="h-8" alt="">
 			<b>{home ? 'Home' : 'Portfolio'}</b>
 		</a>
+		<a href="/contact" class="hover:underline underline-offset-4">Contact</a>
 	</nav>
 </div>
 
