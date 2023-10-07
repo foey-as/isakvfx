@@ -4,7 +4,7 @@ const config: ClientConfig = {
 	projectId: 'bnenft5e',
 	dataset: 'production',
 	useCdn: true,
-	apiVersion: '2023-05-29'
+	apiVersion: '2023-06-29'
 };
 
 export const client = createClient(config);
