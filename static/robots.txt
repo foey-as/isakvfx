@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.isakvfx.no
+Host: https://www.isakvfx.com
 
 # Sitemaps
-Sitemap: https://www.isakvfx.no/sitemap.xml
+Sitemap: https://www.isakvfx.com/sitemap.xml

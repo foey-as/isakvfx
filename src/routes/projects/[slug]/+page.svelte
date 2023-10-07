@@ -58,15 +58,15 @@
 	<meta name="title" content={`${data.title} / Projects | Rasmussen`} />
 	<meta name="description" content={data.description} />
 
-	<link rel="canonical" href={`https://www.isakvfx.no/projects/${data.slug}`} />
+	<link rel="canonical" href={`https://www.isakvfx.com/projects/${data.slug}`} />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content={`https://www.isakvfx.no/projects/${data.slug}`} />
+	<meta property="og:url" content={`https://www.isakvfx.com/projects/${data.slug}`} />
 	<meta property="og:title" content={`${data.title} / Projects | Rasmussen`} />
 	<meta property="og:description" content={data.description} />
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content={`https://www.isakvfx.no/projects/${data.slug}`} />
+	<meta property="twitter:url" content={`https://www.isakvfx.com/projects/${data.slug}`} />
 	<meta property="twitter:title" content={`${data.title} / Projects | Rasmussen`} />
 	<meta property="twitter:description" content={data.description} />
 

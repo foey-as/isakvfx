@@ -40,10 +40,10 @@
 		content={data.metadata.description}
 	/>
 
-	<link rel="canonical" href="https://www.isakvfx.no/" />
+	<link rel="canonical" href="https://www.isakvfx.com/" />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.isakvfx.no/" />
+	<meta property="og:url" content="https://www.isakvfx.com/" />
 	<meta property="og:title" content={data.metadata.pageTitle} />
 	<meta
 		property="og:description"
@@ -51,7 +51,7 @@
 	/>
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://www.isakvfx.no/" />
+	<meta property="twitter:url" content="https://www.isakvfx.com/" />
 	<meta property="twitter:title" content={data.metadata.pageTitle} />
 	<meta
 		property="twitter:description"

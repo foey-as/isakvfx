@@ -26,15 +26,15 @@
 	<meta name="title" content="Projects | Rasmussen" />
 	<meta name="description" content="Here are the projects I've done." />
 
-	<link rel="canonical" href="https://www.isakvfx.no/projects/" />
+	<link rel="canonical" href="https://www.isakvfx.com/projects/" />
 
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.isakvfx.no/projects/" />
+	<meta property="og:url" content="https://www.isakvfx.com/projects/" />
 	<meta property="og:title" content="Projects | Rasmussen" />
 	<meta property="og:description" content="Here are the projects I've done." />
 
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://www.isakvfx.no/projects/" />
+	<meta property="twitter:url" content="https://www.isakvfx.com/projects/" />
 	<meta property="twitter:title" content="Projects | Rasmussen" />
 	<meta
 		property="twitter:description"

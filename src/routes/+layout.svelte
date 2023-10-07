@@ -16,6 +16,6 @@
 		'@context': 'https://schema.org/',
 		'@type': 'Person',
 		name: 'Isak Fjeld Rasmussen',
-		url: 'https://www.isakvfx.no/',
+		url: 'https://www.isakvfx.com/',
 	})}
 </svelte:head>
