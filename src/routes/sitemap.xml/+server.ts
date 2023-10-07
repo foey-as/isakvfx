@@ -19,13 +19,13 @@ export async function GET() {
             xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
         >
             <url>
-                <loc>https://www.isakvfx.no/</loc>
+                <loc>https://www.isakvfx.com/</loc>
                 <lastmod>${lastmod}</lastmod>
                 <changefreq>always</changefreq>
                 <priority>1.0</priority>
             </url>
             <url>
-                <loc>https://www.isakvfx.no/projects/</loc>
+                <loc>https://www.isakvfx.com/projects/</loc>
                 <lastmod>${lastmod}</lastmod>
                 <changefreq>always</changefreq>
                 <priority>0.8</priority>
@@ -34,7 +34,7 @@ export async function GET() {
 							(slug) =>
 								`
                     <url>
-                        <loc>https://www.isakvfx.no/projects/${slug}</loc>
+                        <loc>https://www.isakvfx.com/projects/${slug}</loc>
                         <lastmod>${lastmod}</lastmod>
                         <changefreq>always</changefreq>
                         <priority>0.8</priority>
