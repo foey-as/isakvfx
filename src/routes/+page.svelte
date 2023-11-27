@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Navbar from '$lib/components/Navbar.svelte';
-	import Projects from '$lib/components/Projects.svelte';
 
 	import type { PageData } from './$types';
 
@@ -8,29 +7,12 @@
 </script>
 
 <Navbar />
-<div
-	class="flex min-h-[calc(100vh-4rem)] w-full min-w-0 max-w-full justify-center pb-8 text-gray-50"
->
-	<main class="w-full min-w-0 max-w-4xl px-6 pt-4 md:px-8">
-		<h1
-			class="font-semibold mt-10 border-b pb-1 text-3xl contrast-more:border-neutral-400"
-		>
-			{data.metadata.heading}
-		</h1>
-		<div class="mt-6 leading-7 first:mt-0 flex-col flex md:flex-row justify-between">
-			<p class="">
-				{data.metadata.description}
-			</p>
-		</div>
-		<div class="h-[50px]" />
-		<h2 class="font-semibold mt-10 border-b pb-1 text-2xl contrast-more:border-neutral-400">
-			<a href="/projects">Projects</a>
-		</h2>
-		<div class="mt-6 leading-7 first:mt-0">
-			<Projects projects={data.projects} />
-		</div>
-	</main>
+<div class="fixed inset-0 flex items-center justify-center">
+  <video autoplay muted loop id="myVideo" class="w-full h-full object-cover">
+    <source src="vid.mp4" type="video/mp4">
+  </video>
 </div>
+
 
 <svelte:head>
 	<title>{data.metadata.pageTitle}</title>

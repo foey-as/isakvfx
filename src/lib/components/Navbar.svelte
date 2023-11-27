@@ -9,11 +9,22 @@
 		class="nav-container-blur w-full h-full bg-[hsla(0,0%,7%,.8)!important] shadow-[0_-1px_0_rgba(255,255,255,.1)_inset]"
 	/>
 	<nav class="h-[4rem] mx-auto flex max-w-[90rem] items-center justify-end gap-2 px-[1.5rem]">
-		<a class="flex items-center hover:opacity-75 mr-auto" href="/">
+		<a class="flex items-center hover:opacity-75 mr-auto" href="/portfolio">
 			<img src="/logo.png" class="h-8" alt="">
 			<b>{home ? 'Home' : 'Portfolio'}</b>
 		</a>
-		<a href="/contact" class="hover:underline underline-offset-4">Contact</a>
+		<div class="flex space-x-2">
+			<a href="/contact" class="hover:underline underline-offset-4">Contact</a>
+			<a href="https://www.youtube.com/@isakfjeldrasmussen6834/videos" target="_blank">
+				<img src="/icons/yt.png" alt="youtube-icon" width="24px" height="24px">
+			</a>
+			<a href="https://www.instagram.com/isak_vfx/" target="_blank">
+				<img src="/icons/insta.png" alt="instagram-icon" width="24px" height="24px">
+			</a>
+			<a href="https://www.imdb.com/name/nm14310870/" target="_blank">
+				<img src="/icons/imdb.png" alt="IMDb-icon" width="24px" height="24px">
+			</a>
+		</div>
 	</nav>
 </div>
 
